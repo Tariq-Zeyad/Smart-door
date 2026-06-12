@@ -1,0 +1,15 @@
+This structure formally documents the embedded system ecosystem for developers looking at your repository:
+
+```text
+# Embedded System Project Dependencies
+# This project is designed and simulated on Wokwi.
+
+# Hardware / Platform
+platform = atmelavr
+board = uno
+
+# IDE / Simulator
+simulator = Wokwi Web Simulator (https://wokwi.com)
+
+# Required Arduino Libraries
+Servo @ 1.2.1

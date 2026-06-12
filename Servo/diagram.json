@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Tariq Zeyad",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 58.2, "left": -48.6, "attrs": {} },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": -63.2, "left": 31.02, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 17.2, "left": 249.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "pir1:VCC", "uno:5V", "red", [ "v9.6", "h-134.4", "v240", "h182.4" ] ],
+    [ "pir1:GND", "uno:GND.1", "black", [ "v28.8", "h-19.46" ] ],
+    [ "pir1:OUT", "uno:5", "green", [ "v9.6", "h76.66" ] ],
+    [ "servo1:GND", "uno:GND.2", "black", [ "h0", "v220.8", "h-124.8" ] ],
+    [ "servo1:V+", "uno:5V", "green", [ "h57.6", "v230.5", "h-201.6" ] ],
+    [ "servo1:PWM", "uno:3", "green", [ "h-28.8", "v-47.8", "h-38.4" ] ]
+  ],
+  "dependencies": {}
+}
