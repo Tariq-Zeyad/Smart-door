@@ -4,7 +4,7 @@ A simple yet robust Arduino-based prototype designed using **Wokwi** that simula
 
 ## 🌐 Live Simulation
 You can test, interact, and run this project live in your browser without any hardware using Wokwi:
-👉 **[Run Live Simulation on Wokwi] https://wokwi.com/projects/466627233339303937**
+👉 **Run Live Simulation on Wokwi  >> https://wokwi.com/projects/466627233339303937**
 
 ## 📝 Project Overview
 This project uses an **Arduino UNO**, a **digital motion/proximity sensor**, and a **Servo motor** to emulate an automated door. When a person approaches, the sensor triggers the servo to rotate 90° (opening the door). Once the person passes, the servo returns to 0° (closing the door).
